@@ -6,6 +6,14 @@ function logShout(string) {
   console.log(string.toUpperCase());
 }
 
+function whisper(string) {
+  return string.toLowerCase();
+}
+
+function logWhisper(string) {
+  console.log(string.toLowerCase());
+}
+
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
     expect(shout('hello')).toEqual('HELLO')
