@@ -1,3 +1,10 @@
+function shout(string) {
+  return string.toUpperCase();
+}
+
+function logShout(string) {
+  console.log(string.toUpperCase);
+}
 
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
